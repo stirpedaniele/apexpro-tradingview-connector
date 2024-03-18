@@ -26,8 +26,8 @@ https://github.com/stirpedaniele/apexpro-tradingview-connector
 {
     "exchange": "apexpro",
     "strategy":"test",
-    "market":"{{ticker}}",
-    "size":"{{strategy.market_position_size}}",
+    "market":"BTC-USDT",
+    "size":"{{strategy.order.contracts}}",
     "reverse":true,
     "order":"{{strategy.order.action}}",
     "position":"{{strategy.market_position}}",
